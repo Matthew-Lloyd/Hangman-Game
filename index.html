@@ -5,11 +5,44 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
 <body>
-<h1 id="startup-text">Press any key to get started!</h1>
-<div id="box"></div>
+	<!-- Main Game Screen -->
+	<section>
+		<div class="wrapper">
+			<h1 id="startup-text">Press any key to get started!</h1>
+			<h1 id="Verse"></h1>
+			<div class="status">
+
+				<h3>Current Score: </h3>
+				<p><span id="score"></span></p>
+				<h3>Countdown to the Noose</h3>
+					<p>
+						<span id="guesses"></span>
+					</p>
+			</div>
+			<div class="game-window">
+				<p>Current Scripture: </p>
+				<p><span id="workingScript"></span></p>
+			</div>
+
+			<div class="player-info">
+				
+				<p>Already guessed:</p>
+				<p><span id="guessedLetters"></span></p>
+				<p id="Messageboard"></p>
+			</div>
+			
+			
+			
+			
+			
+				
+		</div>
+		
+	</section>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
